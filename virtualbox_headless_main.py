@@ -310,7 +310,7 @@ class GuestMonitor:
 
 	def onCanShowWindow(self):
 			print  "%s: onCanShowWindow" %(self.mach.name)
-			return True
+			return False
 
 	def onShowWindow(self, winId):
 			print  "%s: onShowWindow: %d" %(self.mach.name, winId)
